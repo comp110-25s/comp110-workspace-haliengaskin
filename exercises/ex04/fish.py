@@ -4,7 +4,7 @@
 class Fish:
 
     def __init__(self):
-        return None
+        self.age = 0
 
     def one_day(self):
-        pass
+        self.age += 1
